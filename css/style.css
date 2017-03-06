@@ -87,7 +87,6 @@ nav ul li {
   margin-top: 5px;
 }
 
-
 .primary-nav a {
   color: #115A83;
   font-weight: bold;
@@ -96,7 +95,6 @@ nav ul li {
 .primary-nav a:hover {
   color: #831121;
 }
-
 
 /*** header ***/
 
@@ -278,8 +276,6 @@ header h1 {
 
 @media (min-width: 768px) {
 
-
-
     nav {
       background-color: #f9fafa;
       width: 100%;
@@ -304,8 +300,6 @@ header h1 {
      width: 60%;
      float: left;
    }
-
-
 
    .portfolio-left {
      float: left;
@@ -361,8 +355,6 @@ header h1 {
 
 @media (min-width: 1024px) {
 
-
-
   .desktop-nav {
     display: flex;
   }
@@ -394,15 +386,4 @@ header h1 {
     padding-right: 10px;
   }
 
-  
-
-
 }
-
-/*** portfolio ***/
-
-
-/*** contact ***/
-
-
-/*** footer ***/
