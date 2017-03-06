@@ -42,7 +42,7 @@ h2,
 h3,
 h4,
 h5,
-h6, {
+h6 {
   font-family: 'Space Mono', monospace;
 }
 
@@ -121,8 +121,6 @@ header h1 {
 }
 
 .shadow {
-  -moz-box-shadow:    3px 3px 5px 6px #4E5B63;
-  -webkit-box-shadow: 3px 3px 5px 6px #4E5B63;
   box-shadow:         3px 3px 5px 6px #4E5B63;
 }
 
@@ -149,9 +147,7 @@ header h1 {
 }
 
 .bottom-shadow {
-  -webkit-box-shadow: 0 8px 6px -6px #4E5B63;
-	   -moz-box-shadow: 0 8px 6px -6px #4E5B63;
-	        box-shadow: 0 8px 6px -6px #4E5B63;
+	 box-shadow: 0 8px 6px -6px #4E5B63;
 }
 
 .portfolio-title {
@@ -337,7 +333,7 @@ header h1 {
   .footer-nav {
     display: block;
     text-align: right;
-    background-color: none;
+    background-color: transparent;
     margin-right: 20px;
 
   }
