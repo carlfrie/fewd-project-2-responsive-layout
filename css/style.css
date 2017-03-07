@@ -137,6 +137,12 @@ header h1 {
 .portfolio-item-wrapper {
   margin-top: 40px;
   margin-bottom: 40px;
+  border-style: solid;
+  border-color: #4E5B63;
+  border-width: 0px 2px 1px 0px;
+  border-bottom-right-radius: 4px;
+
+
 }
 
 .portfolio-image {
@@ -231,6 +237,17 @@ header h1 {
   text-transform: capitalize;
 }
 
+.color-transition {
+  transition: .5s all;
+  transition-delay: .2s;
+}
+
+.color-transition:hover {
+  background: #B8CAD8;
+  transition: ease-in-out 0.5s all;
+
+}
+
 /*** media queries ***/
 
 @media (min-width: 320px) {
@@ -297,14 +314,19 @@ header h1 {
      float: left;
    }
 
+   .portfolio-item-wrapper {
+     margin-left: 15px;
+     margin-right: 15px;
+   }
+
    .portfolio-left {
      float: left;
-     width: 50%;
+     width: 45%;
    }
 
   .portfolio-right {
     float: right;
-    width: 50%;
+    width: 45%;
   }
 
   .portfolio-desc {
